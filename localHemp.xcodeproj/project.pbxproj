@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43E4E591A9B754800287B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4E581A9B754800287B63 /* AppDelegate.swift */; };
+		B43E4E5B1A9B754800287B63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4E5A1A9B754800287B63 /* ViewController.swift */; };
+		B43E4E5E1A9B754800287B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E5C1A9B754800287B63 /* Main.storyboard */; };
+		B43E4E601A9B754800287B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E5F1A9B754800287B63 /* Images.xcassets */; };
+		B43E4E631A9B754800287B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E611A9B754800287B63 /* LaunchScreen.xib */; };
+		B43E4E6F1A9B754800287B63 /* localHempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4E6E1A9B754800287B63 /* localHempTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43E4E691A9B754800287B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43E4E4B1A9B754800287B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43E4E521A9B754800287B63;
+			remoteInfo = localHemp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B43E4E531A9B754800287B63 /* localHemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localHemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43E4E571A9B754800287B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43E4E581A9B754800287B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43E4E5A1A9B754800287B63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B43E4E5D1A9B754800287B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B43E4E5F1A9B754800287B63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B43E4E621A9B754800287B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B43E4E681A9B754800287B63 /* localHempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localHempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43E4E6D1A9B754800287B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43E4E6E1A9B754800287B63 /* localHempTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localHempTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43E4E501A9B754800287B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4E651A9B754800287B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43E4E4A1A9B754800287B63 = {
+			isa = PBXGroup;
+			children = (
+				B43E4E551A9B754800287B63 /* localHemp */,
+				B43E4E6B1A9B754800287B63 /* localHempTests */,
+				B43E4E541A9B754800287B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B43E4E541A9B754800287B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4E531A9B754800287B63 /* localHemp.app */,
+				B43E4E681A9B754800287B63 /* localHempTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43E4E551A9B754800287B63 /* localHemp */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4E581A9B754800287B63 /* AppDelegate.swift */,
+				B43E4E5A1A9B754800287B63 /* ViewController.swift */,
+				B43E4E5C1A9B754800287B63 /* Main.storyboard */,
+				B43E4E5F1A9B754800287B63 /* Images.xcassets */,
+				B43E4E611A9B754800287B63 /* LaunchScreen.xib */,
+				B43E4E561A9B754800287B63 /* Supporting Files */,
+			);
+			path = localHemp;
+			sourceTree = "<group>";
+		};
+		B43E4E561A9B754800287B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4E571A9B754800287B63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B43E4E6B1A9B754800287B63 /* localHempTests */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4E6E1A9B754800287B63 /* localHempTests.swift */,
+				B43E4E6C1A9B754800287B63 /* Supporting Files */,
+			);
+			path = localHempTests;
+			sourceTree = "<group>";
+		};
+		B43E4E6C1A9B754800287B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4E6D1A9B754800287B63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B43E4E521A9B754800287B63 /* localHemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43E4E721A9B754800287B63 /* Build configuration list for PBXNativeTarget "localHemp" */;
+			buildPhases = (
+				B43E4E4F1A9B754800287B63 /* Sources */,
+				B43E4E501A9B754800287B63 /* Frameworks */,
+				B43E4E511A9B754800287B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = localHemp;
+			productName = localHemp;
+			productReference = B43E4E531A9B754800287B63 /* localHemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43E4E671A9B754800287B63 /* localHempTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43E4E751A9B754800287B63 /* Build configuration list for PBXNativeTarget "localHempTests" */;
+			buildPhases = (
+				B43E4E641A9B754800287B63 /* Sources */,
+				B43E4E651A9B754800287B63 /* Frameworks */,
+				B43E4E661A9B754800287B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43E4E6A1A9B754800287B63 /* PBXTargetDependency */,
+			);
+			name = localHempTests;
+			productName = localHempTests;
+			productReference = B43E4E681A9B754800287B63 /* localHempTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43E4E4B1A9B754800287B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nicolas Grenie";
+				TargetAttributes = {
+					B43E4E521A9B754800287B63 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B43E4E671A9B754800287B63 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B43E4E521A9B754800287B63;
+					};
+				};
+			};
+			buildConfigurationList = B43E4E4E1A9B754800287B63 /* Build configuration list for PBXProject "localHemp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B43E4E4A1A9B754800287B63;
+			productRefGroup = B43E4E541A9B754800287B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43E4E521A9B754800287B63 /* localHemp */,
+				B43E4E671A9B754800287B63 /* localHempTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43E4E511A9B754800287B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E4E5E1A9B754800287B63 /* Main.storyboard in Resources */,
+				B43E4E631A9B754800287B63 /* LaunchScreen.xib in Resources */,
+				B43E4E601A9B754800287B63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4E661A9B754800287B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43E4E4F1A9B754800287B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E4E5B1A9B754800287B63 /* ViewController.swift in Sources */,
+				B43E4E591A9B754800287B63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4E641A9B754800287B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E4E6F1A9B754800287B63 /* localHempTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43E4E6A1A9B754800287B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43E4E521A9B754800287B63 /* localHemp */;
+			targetProxy = B43E4E691A9B754800287B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B43E4E5C1A9B754800287B63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43E4E5D1A9B754800287B63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B43E4E611A9B754800287B63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43E4E621A9B754800287B63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B43E4E701A9B754800287B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B43E4E711A9B754800287B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B43E4E731A9B754800287B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = localHemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B43E4E741A9B754800287B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = localHemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B43E4E761A9B754800287B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = localHempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/localHemp.app/localHemp";
+			};
+			name = Debug;
+		};
+		B43E4E771A9B754800287B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = localHempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/localHemp.app/localHemp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43E4E4E1A9B754800287B63 /* Build configuration list for PBXProject "localHemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43E4E701A9B754800287B63 /* Debug */,
+				B43E4E711A9B754800287B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43E4E721A9B754800287B63 /* Build configuration list for PBXNativeTarget "localHemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43E4E731A9B754800287B63 /* Debug */,
+				B43E4E741A9B754800287B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B43E4E751A9B754800287B63 /* Build configuration list for PBXNativeTarget "localHempTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43E4E761A9B754800287B63 /* Debug */,
+				B43E4E771A9B754800287B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B43E4E4B1A9B754800287B63 /* Project object */;
+}
