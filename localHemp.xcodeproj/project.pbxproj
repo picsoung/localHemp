@@ -13,6 +13,21 @@
 		B43E4E601A9B754800287B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E5F1A9B754800287B63 /* Images.xcassets */; };
 		B43E4E631A9B754800287B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E611A9B754800287B63 /* LaunchScreen.xib */; };
 		B43E4E6F1A9B754800287B63 /* localHempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4E6E1A9B754800287B63 /* localHempTests.swift */; };
+		B43E4E811A9B757600287B63 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4E801A9B757600287B63 /* InterfaceController.swift */; };
+		B43E4E831A9B757600287B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E821A9B757600287B63 /* Images.xcassets */; };
+		B43E4E871A9B757600287B63 /* localHemp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E861A9B757600287B63 /* localHemp WatchKit App.app */; };
+		B43E4E8F1A9B757600287B63 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E8D1A9B757600287B63 /* Interface.storyboard */; };
+		B43E4E911A9B757600287B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E901A9B757600287B63 /* Images.xcassets */; };
+		B43E4E941A9B757600287B63 /* localHemp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B43E4E7C1A9B757600287B63 /* localHemp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B43E4E9D1A9B77BB00287B63 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4E9C1A9B77BB00287B63 /* page2.swift */; };
+		B43E4E9F1A9B872B00287B63 /* barcelona.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E9E1A9B872B00287B63 /* barcelona.gpx */; };
+		B43E4F0C1A9BAADE00287B63 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4F0B1A9BAADE00287B63 /* Tracker.swift */; };
+		B43E4F0D1A9BAADE00287B63 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4F0B1A9BAADE00287B63 /* Tracker.swift */; };
+		B43E4F2D1A9C918400287B63 /* localHempMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4F2C1A9C918400287B63 /* localHempMobileTests.swift */; };
+		B43E4F351A9CBB2D00287B63 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4F341A9CBB2D00287B63 /* ListViewController.swift */; };
+		B43E4F361A9CBB2D00287B63 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E4F341A9CBB2D00287B63 /* ListViewController.swift */; };
+		B43E4F3B1A9CD32B00287B63 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43E4F3A1A9CD32B00287B63 /* CustomTableViewCell.xib */; };
+		B43E4F3C1A9CD32B00287B63 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43E4F3A1A9CD32B00287B63 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +38,42 @@
 			remoteGlobalIDString = B43E4E521A9B754800287B63;
 			remoteInfo = localHemp;
 		};
+		B43E4E881A9B757600287B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43E4E4B1A9B754800287B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43E4E851A9B757600287B63;
+			remoteInfo = "localHemp WatchKit App";
+		};
+		B43E4E921A9B757600287B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43E4E4B1A9B754800287B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43E4E7B1A9B757600287B63;
+			remoteInfo = "localHemp WatchKit Extension";
+		};
+		B43E4F271A9C918400287B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43E4E4B1A9B754800287B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43E4F111A9C918400287B63;
+			remoteInfo = localHempMobile;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B43E4E9B1A9B757700287B63 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B43E4E941A9B757600287B63 /* localHemp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B43E4E531A9B754800287B63 /* localHemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localHemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +86,23 @@
 		B43E4E681A9B754800287B63 /* localHempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localHempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43E4E6D1A9B754800287B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43E4E6E1A9B754800287B63 /* localHempTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localHempTests.swift; sourceTree = "<group>"; };
+		B43E4E7C1A9B757600287B63 /* localHemp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "localHemp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43E4E7F1A9B757600287B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43E4E801A9B757600287B63 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B43E4E821A9B757600287B63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B43E4E861A9B757600287B63 /* localHemp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "localHemp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43E4E8C1A9B757600287B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43E4E8E1A9B757600287B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B43E4E901A9B757600287B63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B43E4E9C1A9B77BB00287B63 /* page2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
+		B43E4E9E1A9B872B00287B63 /* barcelona.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = barcelona.gpx; path = ../../../../Downloads/barcelona.gpx; sourceTree = "<group>"; };
+		B43E4F0B1A9BAADE00287B63 /* Tracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		B43E4F121A9C918400287B63 /* localHempMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localHempMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43E4F261A9C918400287B63 /* localHempMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localHempMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43E4F2B1A9C918400287B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43E4F2C1A9C918400287B63 /* localHempMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localHempMobileTests.swift; sourceTree = "<group>"; };
+		B43E4F341A9CBB2D00287B63 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		B43E4F3A1A9CD32B00287B63 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +120,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B43E4E791A9B757600287B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4F0F1A9C918400287B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4F231A9C918400287B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B43E4E4A1A9B754800287B63 = {
 			isa = PBXGroup;
 			children = (
+				B43E4E9E1A9B872B00287B63 /* barcelona.gpx */,
 				B43E4E551A9B754800287B63 /* localHemp */,
 				B43E4E6B1A9B754800287B63 /* localHempTests */,
+				B43E4E7D1A9B757600287B63 /* localHemp WatchKit Extension */,
+				B43E4E8A1A9B757600287B63 /* localHemp WatchKit App */,
+				B43E4F291A9C918400287B63 /* localHempMobileTests */,
 				B43E4E541A9B754800287B63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +162,10 @@
 			children = (
 				B43E4E531A9B754800287B63 /* localHemp.app */,
 				B43E4E681A9B754800287B63 /* localHempTests.xctest */,
+				B43E4E7C1A9B757600287B63 /* localHemp WatchKit Extension.appex */,
+				B43E4E861A9B757600287B63 /* localHemp WatchKit App.app */,
+				B43E4F121A9C918400287B63 /* localHempMobile.app */,
+				B43E4F261A9C918400287B63 /* localHempMobileTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +179,8 @@
 				B43E4E5F1A9B754800287B63 /* Images.xcassets */,
 				B43E4E611A9B754800287B63 /* LaunchScreen.xib */,
 				B43E4E561A9B754800287B63 /* Supporting Files */,
+				B43E4F341A9CBB2D00287B63 /* ListViewController.swift */,
+				B43E4F3A1A9CD32B00287B63 /* CustomTableViewCell.xib */,
 			);
 			path = localHemp;
 			sourceTree = "<group>";
@@ -112,6 +210,61 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B43E4E7D1A9B757600287B63 /* localHemp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4E801A9B757600287B63 /* InterfaceController.swift */,
+				B43E4E821A9B757600287B63 /* Images.xcassets */,
+				B43E4E7E1A9B757600287B63 /* Supporting Files */,
+				B43E4E9C1A9B77BB00287B63 /* page2.swift */,
+				B43E4F0B1A9BAADE00287B63 /* Tracker.swift */,
+			);
+			path = "localHemp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B43E4E7E1A9B757600287B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4E7F1A9B757600287B63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B43E4E8A1A9B757600287B63 /* localHemp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4E8D1A9B757600287B63 /* Interface.storyboard */,
+				B43E4E901A9B757600287B63 /* Images.xcassets */,
+				B43E4E8B1A9B757600287B63 /* Supporting Files */,
+			);
+			path = "localHemp WatchKit App";
+			sourceTree = "<group>";
+		};
+		B43E4E8B1A9B757600287B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4E8C1A9B757600287B63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B43E4F291A9C918400287B63 /* localHempMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4F2C1A9C918400287B63 /* localHempMobileTests.swift */,
+				B43E4F2A1A9C918400287B63 /* Supporting Files */,
+			);
+			path = localHempMobileTests;
+			sourceTree = "<group>";
+		};
+		B43E4F2A1A9C918400287B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4F2B1A9C918400287B63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +275,12 @@
 				B43E4E4F1A9B754800287B63 /* Sources */,
 				B43E4E501A9B754800287B63 /* Frameworks */,
 				B43E4E511A9B754800287B63 /* Resources */,
+				B43E4E9B1A9B757700287B63 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B43E4E931A9B757600287B63 /* PBXTargetDependency */,
 			);
 			name = localHemp;
 			productName = localHemp;
@@ -150,6 +305,74 @@
 			productReference = B43E4E681A9B754800287B63 /* localHempTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B43E4E7B1A9B757600287B63 /* localHemp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43E4E981A9B757700287B63 /* Build configuration list for PBXNativeTarget "localHemp WatchKit Extension" */;
+			buildPhases = (
+				B43E4E781A9B757600287B63 /* Sources */,
+				B43E4E791A9B757600287B63 /* Frameworks */,
+				B43E4E7A1A9B757600287B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43E4E891A9B757600287B63 /* PBXTargetDependency */,
+			);
+			name = "localHemp WatchKit Extension";
+			productName = "localHemp WatchKit Extension";
+			productReference = B43E4E7C1A9B757600287B63 /* localHemp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B43E4E851A9B757600287B63 /* localHemp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43E4E951A9B757700287B63 /* Build configuration list for PBXNativeTarget "localHemp WatchKit App" */;
+			buildPhases = (
+				B43E4E841A9B757600287B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "localHemp WatchKit App";
+			productName = "localHemp WatchKit App";
+			productReference = B43E4E861A9B757600287B63 /* localHemp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		B43E4F111A9C918400287B63 /* localHempMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43E4F2E1A9C918400287B63 /* Build configuration list for PBXNativeTarget "localHempMobile" */;
+			buildPhases = (
+				B43E4F0E1A9C918400287B63 /* Sources */,
+				B43E4F0F1A9C918400287B63 /* Frameworks */,
+				B43E4F101A9C918400287B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = localHempMobile;
+			productName = localHempMobile;
+			productReference = B43E4F121A9C918400287B63 /* localHempMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43E4F251A9C918400287B63 /* localHempMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43E4F311A9C918400287B63 /* Build configuration list for PBXNativeTarget "localHempMobileTests" */;
+			buildPhases = (
+				B43E4F221A9C918400287B63 /* Sources */,
+				B43E4F231A9C918400287B63 /* Frameworks */,
+				B43E4F241A9C918400287B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43E4F281A9C918400287B63 /* PBXTargetDependency */,
+			);
+			name = localHempMobileTests;
+			productName = localHempMobileTests;
+			productReference = B43E4F261A9C918400287B63 /* localHempMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +388,19 @@
 					B43E4E671A9B754800287B63 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = B43E4E521A9B754800287B63;
+					};
+					B43E4E7B1A9B757600287B63 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B43E4E851A9B757600287B63 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B43E4F111A9C918400287B63 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B43E4F251A9C918400287B63 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B43E4F111A9C918400287B63;
 					};
 				};
 			};
@@ -183,6 +419,10 @@
 			targets = (
 				B43E4E521A9B754800287B63 /* localHemp */,
 				B43E4E671A9B754800287B63 /* localHempTests */,
+				B43E4E7B1A9B757600287B63 /* localHemp WatchKit Extension */,
+				B43E4E851A9B757600287B63 /* localHemp WatchKit App */,
+				B43E4F111A9C918400287B63 /* localHempMobile */,
+				B43E4F251A9C918400287B63 /* localHempMobileTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,11 +434,46 @@
 			files = (
 				B43E4E5E1A9B754800287B63 /* Main.storyboard in Resources */,
 				B43E4E631A9B754800287B63 /* LaunchScreen.xib in Resources */,
+				B43E4F3B1A9CD32B00287B63 /* CustomTableViewCell.xib in Resources */,
 				B43E4E601A9B754800287B63 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B43E4E661A9B754800287B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4E7A1A9B757600287B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E4E9F1A9B872B00287B63 /* barcelona.gpx in Resources */,
+				B43E4E871A9B757600287B63 /* localHemp WatchKit App.app in Resources */,
+				B43E4F3C1A9CD32B00287B63 /* CustomTableViewCell.xib in Resources */,
+				B43E4E831A9B757600287B63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4E841A9B757600287B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E4E8F1A9B757600287B63 /* Interface.storyboard in Resources */,
+				B43E4E911A9B757600287B63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4F101A9C918400287B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4F241A9C918400287B63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,7 +487,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43E4F0C1A9BAADE00287B63 /* Tracker.swift in Sources */,
 				B43E4E5B1A9B754800287B63 /* ViewController.swift in Sources */,
+				B43E4F351A9CBB2D00287B63 /* ListViewController.swift in Sources */,
 				B43E4E591A9B754800287B63 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +502,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B43E4E781A9B757600287B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E4F0D1A9BAADE00287B63 /* Tracker.swift in Sources */,
+				B43E4E811A9B757600287B63 /* InterfaceController.swift in Sources */,
+				B43E4F361A9CBB2D00287B63 /* ListViewController.swift in Sources */,
+				B43E4E9D1A9B77BB00287B63 /* page2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4F0E1A9C918400287B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E4F221A9C918400287B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E4F2D1A9C918400287B63 /* localHempMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +535,21 @@
 			isa = PBXTargetDependency;
 			target = B43E4E521A9B754800287B63 /* localHemp */;
 			targetProxy = B43E4E691A9B754800287B63 /* PBXContainerItemProxy */;
+		};
+		B43E4E891A9B757600287B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43E4E851A9B757600287B63 /* localHemp WatchKit App */;
+			targetProxy = B43E4E881A9B757600287B63 /* PBXContainerItemProxy */;
+		};
+		B43E4E931A9B757600287B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43E4E7B1A9B757600287B63 /* localHemp WatchKit Extension */;
+			targetProxy = B43E4E921A9B757600287B63 /* PBXContainerItemProxy */;
+		};
+		B43E4F281A9C918400287B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43E4F111A9C918400287B63 /* localHempMobile */;
+			targetProxy = B43E4F271A9C918400287B63 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +568,14 @@
 				B43E4E621A9B754800287B63 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B43E4E8D1A9B757600287B63 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43E4E8E1A9B757600287B63 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -340,6 +666,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = localHemp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +677,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = localHemp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,6 +718,118 @@
 			};
 			name = Release;
 		};
+		B43E4E961A9B757700287B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = localHemp_WatchKit_Extension;
+				INFOPLIST_FILE = "localHemp WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B43E4E971A9B757700287B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = localHemp_WatchKit_Extension;
+				INFOPLIST_FILE = "localHemp WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B43E4E991A9B757700287B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "localHemp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B43E4E9A1A9B757700287B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "localHemp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B43E4F2F1A9C918400287B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = localHempMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B43E4F301A9C918400287B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = localHempMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B43E4F321A9C918400287B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = localHempMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/localHempMobile.app/localHempMobile";
+			};
+			name = Debug;
+		};
+		B43E4F331A9C918400287B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = localHempMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/localHempMobile.app/localHempMobile";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +855,38 @@
 			buildConfigurations = (
 				B43E4E761A9B754800287B63 /* Debug */,
 				B43E4E771A9B754800287B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B43E4E951A9B757700287B63 /* Build configuration list for PBXNativeTarget "localHemp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43E4E961A9B757700287B63 /* Debug */,
+				B43E4E971A9B757700287B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B43E4E981A9B757700287B63 /* Build configuration list for PBXNativeTarget "localHemp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43E4E991A9B757700287B63 /* Debug */,
+				B43E4E9A1A9B757700287B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B43E4F2E1A9C918400287B63 /* Build configuration list for PBXNativeTarget "localHempMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43E4F2F1A9C918400287B63 /* Debug */,
+				B43E4F301A9C918400287B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B43E4F311A9C918400287B63 /* Build configuration list for PBXNativeTarget "localHempMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43E4F321A9C918400287B63 /* Debug */,
+				B43E4F331A9C918400287B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
