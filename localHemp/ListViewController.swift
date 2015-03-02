@@ -18,7 +18,7 @@ class CustomTableViewCell : UITableViewCell {
     @IBOutlet weak var distanceLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     
-    func loadItem(#title: String, ratingImageURL: String,ratingValue:Double,distanceText:String,timeText:String) {
+    func loadItem(#title: String, ratingImageURL: String,ratingValue:Double) {
         println("URL",ratingImageURL)
         let ratingImageURL = ratingImageURL.stringByReplacingOccurrencesOfString("/240?", withString: "/100?", options: nil, range: nil) //change size to 50px width
         let url = NSURL(string: ratingImageURL)
@@ -26,8 +26,6 @@ class CustomTableViewCell : UITableViewCell {
         ratingImage.image = UIImage(data: data!)
         titleLabel.text = title
         ratingLabel.text = String(stringInterpolationSegment: ratingValue)
-        distanceLabel.text = distanceText
-        timeLabel.text = timeText
     }
 
 }
@@ -41,7 +39,8 @@ class ListViewController: UIViewController,UITableViewDataSource, UITableViewDel
         super.viewDidLoad()
         var nib = UINib(nibName: "CustomTableViewCell", bundle: nil)
         shopListTableView.registerNib(nib, forCellReuseIdentifier: "customCell")
-        getLeaflyJSON("https://0337e9ab-d575fbfbad2f.my.apitools.com/locations")
+        getLeaflyJSON("http://data.leafly.com/locations")
+        
     }
     
     
@@ -111,8 +110,7 @@ class ListViewController: UIViewController,UITableViewDataSource, UITableViewDel
         
         let shopEntry : NSMutableDictionary = self.tableData[indexPath.row] as! NSMutableDictionary
         
-        println(shopEntry["distance"]!["time"])
-        cell.loadItem(title: shopEntry["name"] as! String, ratingImageURL: shopEntry["starImage"] as! String,ratingValue: shopEntry["rating"] as! Double, distanceText: shopEntry["distance"]!["walkingDistanceText"] as! String, timeText: shopEntry["distance"]!["time"] as! String)
+        cell.loadItem(title: shopEntry["name"] as! String, ratingImageURL: shopEntry["starImage"] as! String,ratingValue: shopEntry["rating"] as! Double)
         
         return cell
     }
