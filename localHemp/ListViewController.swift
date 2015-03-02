@@ -15,8 +15,10 @@ class CustomTableViewCell : UITableViewCell {
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet weak var ratingImage: UIImageView!
     @IBOutlet weak var ratingLabel: UILabel!
+    @IBOutlet weak var distanceLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
     
-    func loadItem(#title: String, ratingImageURL: String,ratingValue:Double) {
+    func loadItem(#title: String, ratingImageURL: String,ratingValue:Double,distanceText:String,timeText:String) {
         println("URL",ratingImageURL)
         let ratingImageURL = ratingImageURL.stringByReplacingOccurrencesOfString("/240?", withString: "/100?", options: nil, range: nil) //change size to 50px width
         let url = NSURL(string: ratingImageURL)
@@ -24,6 +26,8 @@ class CustomTableViewCell : UITableViewCell {
         ratingImage.image = UIImage(data: data!)
         titleLabel.text = title
         ratingLabel.text = String(stringInterpolationSegment: ratingValue)
+        distanceLabel.text = distanceText
+        timeLabel.text = timeText
     }
 
 }
@@ -37,8 +41,7 @@ class ListViewController: UIViewController,UITableViewDataSource, UITableViewDel
         super.viewDidLoad()
         var nib = UINib(nibName: "CustomTableViewCell", bundle: nil)
         shopListTableView.registerNib(nib, forCellReuseIdentifier: "customCell")
-        getLeaflyJSON("http://data.leafly.com/locations")
-        
+        getLeaflyJSON("https://0337e9ab-d575fbfbad2f.my.apitools.com/locations")
     }
     
     
@@ -94,6 +97,11 @@ class ListViewController: UIViewController,UITableViewDataSource, UITableViewDel
     
     }
     
+    // Change cellsize
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 100;
+    }
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tableData.count
     }
@@ -103,7 +111,8 @@ class ListViewController: UIViewController,UITableViewDataSource, UITableViewDel
         
         let shopEntry : NSMutableDictionary = self.tableData[indexPath.row] as! NSMutableDictionary
         
-        cell.loadItem(title: shopEntry["name"] as! String, ratingImageURL: shopEntry["starImage"] as! String,ratingValue: shopEntry["rating"] as! Double)
+        println(shopEntry["distance"]!["time"])
+        cell.loadItem(title: shopEntry["name"] as! String, ratingImageURL: shopEntry["starImage"] as! String,ratingValue: shopEntry["rating"] as! Double, distanceText: shopEntry["distance"]!["walkingDistanceText"] as! String, timeText: shopEntry["distance"]!["time"] as! String)
         
         return cell
     }
